@@ -1,0 +1,123 @@
+/* public/style.css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+/* Navbar */
+
+header {
+    background-color: #1b4332;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+}
+
+.logo h2 {
+    font-size: 24px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+nav a:hover {
+    color: #95d5b2;
+}
+
+/* Hero Section */
+
+.hero {
+    height: 85vh;
+
+    background-image: url('https://images.unsplash.com/photo-1523050854058-8df90110c9f1');
+
+    background-size: cover;
+    background-position: center;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 50px;
+    text-align: center;
+    color: white;
+    border-radius: 10px;
+}
+
+.overlay h1 {
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+
+.overlay p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+
+.overlay button {
+    padding: 12px 25px;
+    border: none;
+    background-color: #2d6a4f;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.overlay button:hover {
+    background-color: #40916c;
+}
+
+/* Features Section */
+
+.features {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 40px;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.card h2 {
+    color: #1b4332;
+    margin-bottom: 15px;
+}
+
+.card p {
+    color: #555;
+}
+
+/* Footer */
+
+footer {
+    background-color: #1b4332;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
