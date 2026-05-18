@@ -1,0 +1,24 @@
+<div class="container">
+
+    <h2>User Registration</h2>
+
+    <input
+        type="text"
+        placeholder="Enter Name"
+        [(ngModel)]="user.name">
+
+    <input
+        type="email"
+        placeholder="Enter Email"
+        [(ngModel)]="user.email">
+
+    <input
+        type="password"
+        placeholder="Enter Password"
+        [(ngModel)]="user.password">
+
+    <button (click)="registerUser()">
+        Register
+    </button>
+
+</div>
